@@ -15,7 +15,7 @@ spec:
       labels:
         app: guestbook
         type: ai
-        deployrecord: "9"
+        deployrecord: "10"
     spec:
       containers:
       - name: nginx
@@ -30,7 +30,7 @@ metadata:
   namespace: guestbook
   labels:
     type: ai
-    deployrecord: "9"
+    deployrecord: "10"
 spec:
   type: NodePort
   ports:
